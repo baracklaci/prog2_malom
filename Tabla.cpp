@@ -229,8 +229,8 @@
     }
 
 std::ostream& operator<<(std::ostream& os, const Tabla& t) {
-        //system("cls");
-        /*os << "7  " << t[21] << "---------------" << t[22] <<"---------------" << t[23] << std::endl;
+        system("cls");
+        os << "7  " << t[21] << "---------------" << t[22] <<"---------------" << t[23] << std::endl;
         os << "   |               |               |" << std::endl;
         os << "6  |     " << t[18] << "---------" << t[19] << "---------" << t[20] << "     |" << std::endl;
         os << "   |     |         |         |     |" << std::endl;
@@ -243,7 +243,7 @@ std::ostream& operator<<(std::ostream& os, const Tabla& t) {
         os << "2  |     " << t[3] << "---------" << t[4] << "---------" << t[5] << "     |" << std::endl;
         os << "   |               |               |" << std::endl;
         os << "1  " << t[0] << "---------------" << t[1] <<"---------------" << t[2] << std::endl;
-        os << "   A     B    C    D    E    F     G" << std::endl;*/
+        os << "   A     B    C    D    E    F     G" << std::endl;
     return os;
 }
 
